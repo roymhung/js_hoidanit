@@ -10,4 +10,10 @@ console.log("HELLO toi ne vs 'bn toi' from JS: ");
 
 let x = 5 ,y = 6, z = 7;
 console.log(" Test string", 'x =', x ,'y =', y , 'z =', z );
+console.log(" Test string", + 'x =', x ,'y =', y , 'z =', z ); // sai vi dau "," khong the noi chuoi
 console.log(" Test string " + 'x ='+ x + ' y ='+ y + ' z ='+ z ); // dau "," vs dau "+" cach dung khac nhau
+
+//  Tóm lại:
+// Dấu  ||	Ý nghĩa khi dùng trong console.log   ||	  Ví dụ	                      || Kết quả
+//  ,   ||	Tách nhiều đối số	                 || console.log("a", 1, "b", 2)	  || a 1 b 2
+//  +   ||	Nối chuỗi hoặc cộng số	             ||  "a" + 1	                  ||  "a1"
